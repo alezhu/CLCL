@@ -879,9 +879,9 @@ END
 STRINGTABLE
 BEGIN
     IDS_MAIN_JAPANESE       "日本語"
-    IDS_MAIN_ENGLISH        "英語"
-    IDS_MAIN_GERMAN         "ドイツ語"
-    IDS_MAIN_UKRAINIAN      "ウクライナ語"
+    IDS_MAIN_ENGLISH        "英語 (English)"
+    IDS_MAIN_GERMAN         "ドイツ語 (Deutsch)"
+    IDS_MAIN_UKRAINIAN      "ウクライナ語 (Українська)"
 END
 
 #endif    // 日本語 (日本) resources
@@ -1647,9 +1647,9 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_MAIN_JAPANESE       "Японська"
-    IDS_MAIN_ENGLISH        "Англійська"
-    IDS_MAIN_GERMAN         "Німецька"
+    IDS_MAIN_JAPANESE       "Японська (日本語)"
+    IDS_MAIN_ENGLISH        "Англійська (English)"
+    IDS_MAIN_GERMAN         "Німецька (Deutsch)"
     IDS_MAIN_UKRAINIAN      "Українська"
 END
 
@@ -2340,10 +2340,10 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_MAIN_JAPANESE       "Japanisch"
-    IDS_MAIN_ENGLISH        "Englisch"
+    IDS_MAIN_JAPANESE       "Japanisch (日本語)"
+    IDS_MAIN_ENGLISH        "Englisch (English)"
     IDS_MAIN_GERMAN         "Deutsch"
-    IDS_MAIN_UKRAINIAN      "Ukrainisch"
+    IDS_MAIN_UKRAINIAN      "Ukrainisch (Українська)"
 END
 
 #endif    // German (Germany) resources
@@ -3169,10 +3169,10 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_MAIN_JAPANESE       "Japanese"
+    IDS_MAIN_JAPANESE       "Japanese (日本語)"
     IDS_MAIN_ENGLISH        "English"
-    IDS_MAIN_GERMAN         "German"
-    IDS_MAIN_UKRAINIAN      "Ukrainian"
+    IDS_MAIN_GERMAN         "German (Deutsch)"
+    IDS_MAIN_UKRAINIAN      "Ukrainian (Українська)"
 END
 
 #endif    // English (United States) resources
