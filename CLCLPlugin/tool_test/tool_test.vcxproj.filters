@@ -34,7 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="tool_test.rc">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
 </Project>
