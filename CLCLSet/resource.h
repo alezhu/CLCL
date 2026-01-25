@@ -168,6 +168,7 @@
 #define IDS_MAIN_ENGLISH                2050
 #define IDS_MAIN_GERMAN                 2051
 #define IDS_MAIN_UKRAINIAN              2052
+#define IDS_MAIN_SIMP_CHINESE           2053
 #define IDS_VIEWER_CLIPBOARD            3000
 #define IDS_VIEWER_HISTORY              3001
 #define IDS_VIEWER_REGIST               3002

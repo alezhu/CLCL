@@ -1275,6 +1275,7 @@ void ini_set_language(const TCHAR* locale_name)
 			case 1041: // Japanese
 			case 1049: // Russian
 			case 1058: // Ukrainian
+			case 0x0804: // Chinese (Simplified)
 				langid = SetThreadUILanguage(langid);
 				// TODO: error handling
 				break;
