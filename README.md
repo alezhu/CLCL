@@ -371,6 +371,7 @@ K.Takata ( http://webs.to/ken/ )
 	- Added context menu: Show (only current item) as binary
 	- Added german user interface
 	- Added ukrainian user interface
+	- Added chinese user interface
 	- Switch user interface language in option's Viewer tab and save in CLCL.ini (works only if Windows version is Vista or newer)
 
 - Ver 2.1.3 -> Ver 2.1.4
@@ -505,9 +506,7 @@ K.Takata ( http://webs.to/ken/ )
 
 The author is not responsible for any problems caused by this program. It is strongly recommended that you back up important files. 
 
-Copyright (C) 1996-2024 by Ohno Tomoaki. All rights reserved. https://www.nakka.com/ 
-
 2025 - 2026 MIT License. Sources and Releases under https://github.com/wilfz/CLCL
 
-
+Copyright (C) 1996-2024 by Ohno Tomoaki. All rights reserved. https://www.nakka.com/ 
 
