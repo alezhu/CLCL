@@ -20,19 +20,19 @@ CLCL is a software that records clipboard history. It provides quick access to r
 - **Plugin Architecture** - Extensible functionality via DLL plugins
 - **History size** - The maximum number of items in the history can be configured
 - **Unicode Support** - Full Unicode support for international text
-- **Multiple Language** - User interface language can be switched between english, japanese, german, and ukrainian
+- **Multiple Language** - User interface language can be switched between English, Japanese, German, and Ukrainian
 - **Binary Viewer** - View raw binary clipboard data in hex format
 - **History & Registry** - Persistent and automatically saving clipboard history and templates
 
 ## Installation
 Works on current Windows OS.
 
-Download and launch setup_clcl214.exe. 
+Download and launch [setup_clcl_2_1_5.exe](https://github.com/wilfz/CLCL/releases/download/v2.1.5.2_beta2/setup_clcl_2_1_5.exe).
 The setup may issue a warning when started. This does not imply a threat, but is due to the fact that as a private developer I cannot afford to purchase a certificate to sign the binary for an Open Source project.
 
 If you want to uninstall, do so from the Control Panel __after__ closing CLCL.
 
-Instead of the automatic installer you can also download CLCL214.zip, unpack into a folder of your choice and start clcl.exe from there.
+Instead of the automatic installer you can also download [CLCL_2_1_5.zip](https://github.com/wilfz/CLCL/releases/download/v2.1.5.2_beta2/clcl._2_1_5.zip), unpack into a folder of your choice and start clcl.exe from there.
 
 ### Data Storage
 By default data and settings are stored in this folder (for Windows 10/11):
@@ -361,6 +361,7 @@ K.Takata ( http://webs.to/ken/ )
 - CLCL main program and plugins tool_text, tool_utl and tool_test are Copyright (C) by [Ohno Tomoaki](https://nakka.com/), who made it open source and put it under MIT license in 2024
 - Installer created by WilfZim with [Inno Setup](https://jrsoftware.org/isinfo.php)
 - [Tool_clip plugin](https://github.com/wilfz/CLCL-tool_clip) by WilfZim depends on Niels Lohmann's JSON library ( https://github.com/nlohmann/json ) for import and export of data
+- Translation to Simplified Chinese by HeliusHao
 - ReadMe.html uses github.css Stylesheet,   Copyright (c) 2017 Chris Patuzzo
 
 ## Update history
