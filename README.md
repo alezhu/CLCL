@@ -27,12 +27,12 @@ CLCL is a software that records clipboard history. It provides quick access to r
 ## Installation
 Works on current Windows OS.
 
-Download and launch [setup_clcl_2_1_5.exe](https://github.com/wilfz/CLCL/releases/download/v2.1.5.2_beta2/setup_clcl_2_1_5.exe).
+Download and launch [setup_clcl_2_1_5.exe](https://github.com/wilfz/CLCL/releases).
 The setup may issue a warning when started. This does not imply a threat, but is due to the fact that as a private developer I cannot afford to purchase a certificate to sign the binary for an Open Source project.
 
 If you want to uninstall, do so from the Control Panel __after__ closing CLCL.
 
-Instead of the automatic installer you can also download [CLCL_2_1_5.zip](https://github.com/wilfz/CLCL/releases/download/v2.1.5.2_beta2/clcl._2_1_5.zip), unpack into a folder of your choice and start clcl.exe from there.
+Instead of the automatic installer you can also download [CLCL_2_1_5.zip](https://github.com/wilfz/CLCL/releases), unpack into a folder of your choice and start clcl.exe from there.
 
 ### Data Storage
 By default data and settings are stored in this folder (for Windows 10/11):
@@ -510,4 +510,5 @@ The author is not responsible for any problems caused by this program. It is str
 2025 - 2026 MIT License. Sources and Releases under https://github.com/wilfz/CLCL
 
 Copyright (C) 1996-2024 by Ohno Tomoaki. All rights reserved. https://www.nakka.com/ 
+
 
