@@ -197,7 +197,7 @@ Right-clicking on a history or template item will display the registered tools i
 
 To display the tool menu with the keyboard, press Ctrl and Enter to select an item.
 
-History and template items display menu items according to the "Menu text display format" option. The displayed numbers start from 0, but if you want to change the starting value, set the starting number between the % and the character.
+History and template items are shown according to the "Menu text display format" option. The displayed numbers start from 0, but if you want to change the starting value, set the starting number between the % and the character.
 
 Examples:
 
@@ -298,6 +298,17 @@ Tools let you process current selection, history or template data before pasting
 
 The installation package includes binaries of some useful plugins from https://nakka.com/soft/clcl/index_eng.html. These plugins have been reworked to fit current operating systems; especially the plugin DLLs are installed into the same folder as clcl.exe, the plugins' ini files to the same location as clcl.ini.
 
+**Configure tools in Options → Tools:**
+
+When you select the DLL and function name, the tool name and call type are  automatically set.
+
+- The call type **Viewer** allows you to execute from the viewer's tool menu.
+- The call type **Action Menu** allows you to execute from the "Tools" popup menu.
+  - The **Send copy and paste** sub-option copies the marked data from the active window, executes the tool on the copied data, and afterwards pastes the modified data back into the active window. 
+Without this option, the tool runs on the newest history item and copies it to the clipboard. For right-click tool menus on items, the tool runs on the selected item and sends the result to the clipboard.
+
+Drag and drop a plug-in DLL into the tool list window to display a list of tools that can be registered, and you can select multiple tools to register them all at once.
+
 ### tool_text
 Text manipulation tools:
 - To Lower - Convert to lowercase
@@ -331,17 +342,6 @@ tool_clip.dll is an additional plugin from https://github.com/wilfz/CLCL-tool_cl
 - Show currently selected item in viewer
 - Save CLCL templates to and load from an ODBC database 
 - To be continued ...
-
-**Configure tools in Options → Tools:**
-
-When you select the DLL and function name, the tool name and call type are  automatically set.
-
-- The call type **Viewer** allows you to execute from the viewer's tool menu.
-- The call type **Action Menu** allows you to execute from the "Tools" popup menu.
-  - The **Send copy and paste** sub-option copies the marked data from the active window, executes the tool on the copied data, and afterwards pastes the modified data back into the active window. 
-Without this option, the tool runs on the newest history item and copies it to the clipboard. For right-click tool menus on items, the tool runs on the selected item and sends the result to the clipboard.
-
-Drag and drop a plug-in DLL into the tool list window to display a list of tools that can be registered, and you can select multiple tools to register them all at once.
 
 ## Command Line
 When starting CLCL, you can specify a command line to specify the operation after startup.
@@ -510,5 +510,4 @@ The author is not responsible for any problems caused by this program. It is str
 2025 - 2026 MIT License. Sources and Releases under https://github.com/wilfz/CLCL
 
 Copyright (C) 1996-2024 by Ohno Tomoaki. All rights reserved. https://www.nakka.com/ 
-
 
