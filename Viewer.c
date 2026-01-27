@@ -2916,15 +2916,16 @@ static LRESULT CALLBACK viewer_proc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM l
 				if (buf != NULL) {
 					GetFileVersionInfo(path, 0, size, buf);
 					VerQueryValue(buf, TEXT("\\"), &FileInfo, &len);
-					wsprintf(var_msg + lstrlen(var_msg), TEXT(" Ver %d.%d.%d"),
+					wsprintf(var_msg + lstrlen(var_msg), TEXT(" Ver %d.%d.%d.%d"),
 						HIWORD(FileInfo->dwFileVersionMS),
 						LOWORD(FileInfo->dwFileVersionMS),
-						HIWORD(FileInfo->dwFileVersionLS));
+						HIWORD(FileInfo->dwFileVersionLS),
+						LOWORD(FileInfo->dwFileVersionLS));
 					mem_free(&buf);
 				}
 			}
 			lstrcat(var_msg, TEXT("\n2024-2026 MIT License.\n")
-				TEXT("https://github.com/wilfz/CLCL\nDownload: https://github.com/wilfz/CLCL/releases/tag/v2.1.5.0 \n\n"));
+				TEXT("https://github.com/wilfz/CLCL\nDownload: https://github.com/wilfz/CLCL/releases\n\n"));
 
 			lstrcat(var_msg, TEXT("Ver 0.1.0 -> 2.1.3"));
 			lstrcat(var_msg, TEXT("\nCopyright (C) 1996-2024 by Ohno Tomoaki. All rights reserved.\n")
